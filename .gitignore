@@ -1,0 +1,10 @@
+node_modules/*
+.idea
+cypress/integration/examples/*
+cypress/integration/test.spec.js
+cypress/integration/test_2.spec.js
+cypress/screenshots/*
+cypress/videos/*
+.vscode/
+package-lock.json
+debug.log*
