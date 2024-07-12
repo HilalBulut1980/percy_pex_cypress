@@ -1,0 +1,31 @@
+{
+  "name": "percy-cypress-package",
+  "version": "1.0.0",
+  "description": "testing cypress with percy",
+  "main": "index.js",
+  "dependencies": {
+    "cypress-real-events": "^1.7.6",
+    "scroll-to-bottomjs": "^1.1.0"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.27.2",
+    "@percy/cypress": "^3.1.1",
+    "cypress": "^12.5.1",
+    "cypress-wait-until": "^1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "percy": {
+    "version": 1,
+    "snapshot": {
+      "percy-css": ".category-slider { display: none !important; } iframe { display: none !important; } #shopauskunft_widget { display: none !important; } .landing-slider { display: none !important; } }"
+    },
+    "discovery": {
+      "disable-cache": false
+    }
+  },
+  "author": "Hilal",
+  "license": "ISC"
+}
